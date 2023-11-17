@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<StartupObject>Program</StartupObject>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+		<Description>E-mail Duplicates Cleaner</Description>
+		<Product>E-mail Duplicates Cleaner</Product>
+		<Company>Yxinity Group</Company>
+		<Authors>Larin Aleksandr</Authors>
+		<AssemblyVersion>2023.11.17.8</AssemblyVersion>
+		<FileVersion>2023.11.17.8</FileVersion>
+		<Version>2023.11.17.8</Version>
+		<Copyright>Copyright © Yxinity Group, 2019-2023</Copyright>
+		<PackageTags>email</PackageTags>
+		<Trimming>full</Trimming>
+		<PublishAot>True</PublishAot>
+		<RepositoryUrl>https://github.com/Yxine/EmailDup</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>A:\Projects\raps54.ru\exe\EmailDup\SourceCode\EmailDup.xml</DocumentationFile>
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<PlatformTarget>x64</PlatformTarget>
+		<DefineConstants>DEBUG</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<PlatformTarget>x64</PlatformTarget>
+		<GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<DefineConstants />
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="build.cmd" />
+		<None Remove="clean.cmd" />
+	</ItemGroup>
+</Project>

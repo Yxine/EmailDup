@@ -1,0 +1,4 @@
+.vs
+*.user
+/source/c#/bin
+/source/c#/obj
