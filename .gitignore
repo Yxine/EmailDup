@@ -2,3 +2,4 @@
 *.user
 /source/c#/bin
 /source/c#/obj
+/source/c#/.idea/.idea.EmailDup/.idea

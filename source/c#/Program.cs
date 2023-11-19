@@ -25,7 +25,7 @@ internal partial class Program
 		C.CursorVisible = false;
 		C.ForegroundColor = O.DarkGreen;
 		C.WriteLine("*************************************");
-		C.WriteLine("* Email Duplicator v. 2023-11-17    *");
+		C.WriteLine("* Email Duplicator v. 2023-11-19    *");
 		C.WriteLine("* https://github.com/Yxine/EmailDup *");
 		C.WriteLine("*************************************");
 		C.WriteLine();
