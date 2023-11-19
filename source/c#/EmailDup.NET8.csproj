@@ -8,15 +8,16 @@
 		<Product>E-mail Duplicates Cleaner</Product>
 		<Company>Yxinity Group</Company>
 		<Authors>Larin Aleksandr</Authors>
-		<AssemblyVersion>2023.11.17.8</AssemblyVersion>
-		<FileVersion>2023.11.17.8</FileVersion>
-		<Version>2023.11.17.8</Version>
+		<AssemblyVersion>2023.11.19.8</AssemblyVersion>
+		<FileVersion>2023.11.19.8</FileVersion>
+		<Version>2023.11.19.8</Version>
 		<Copyright>Copyright © Yxinity Group, 2019-2023</Copyright>
 		<PackageTags>email</PackageTags>
 		<Trimming>full</Trimming>
 		<PublishAot>True</PublishAot>
 		<RepositoryUrl>https://github.com/Yxine/EmailDup</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<AssemblyName>EmailDup</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<DocumentationFile>A:\Projects\raps54.ru\exe\EmailDup\SourceCode\EmailDup.xml</DocumentationFile>
