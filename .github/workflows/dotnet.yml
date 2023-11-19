@@ -20,9 +20,6 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore source\c#\EmailDup.NET8.csproj
+      run: dotnet restore source/c#/EmailDup.NET8.csproj
     - name: Build
-      run: dotnet build source\c#\EmailDup.NET8.csproj --no-restore
-#    - name: Test
-#      run: dotnet test --no-build --verbosity normal
-
+      run: dotnet build source/c#/EmailDup.NET8.csproj --no-restore
