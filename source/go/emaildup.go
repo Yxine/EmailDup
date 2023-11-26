@@ -35,13 +35,14 @@ func main() {
 	colorWhite := "\033[97m"
 	colorGray := "\033[37m"
 	println()
-	println(colorGreen + "*************************************")
-	println("* E-mail Duplicator v. 2023-11-19   *")
-	println("* https://github.com/Yxine/EmailDup *")
-	println("*************************************" + colorWhite)
+	println(colorGreen + "*")
+	println("* E-mail Duplicator version 2023-11-26")
+	println("* https://github.com/Yxine/EmailDup")
+	println("* Larin Aleksandr")
+	println("*" + colorWhite)
 	println()
 	if len(os.Args) < 2 {
-		println("  Command-line: EmailDup.exe file" + colorGray)
+		println("  Command-line: EmailDup.exe <file>" + colorGray)
 		println()
 		return
 	}
@@ -72,7 +73,6 @@ func main() {
 						count++
 					}
 				} else {
-					//fmt.Printf("%s\n", word)
 					bad = append(bad, word)
 				}
 			}

@@ -16,13 +16,14 @@ internal partial class Program
 	{
 		W t = new();
 		t.Start();
-		C.Title = "Email Duplicator";
+		C.Title = "E-mail Duplicator";
 		C.CursorVisible = false;
 		C.ForegroundColor = O.DarkGreen;
-		C.WriteLine("*************************************");
-		C.WriteLine("* Email Duplicator v. 2023-11-19    *");
-		C.WriteLine("* https://github.com/Yxine/EmailDup *");
-		C.WriteLine("*************************************");
+		C.WriteLine("*");
+		C.WriteLine("* E-mail Duplicator verison 2023-11-26");
+		C.WriteLine("* https://github.com/Yxine/EmailDup");
+		C.WriteLine("* Larin Aleksandr");
+		C.WriteLine("*");
 		C.WriteLine();
 		C.ForegroundColor = O.White;
 		if (a.Length < 1)

@@ -8,9 +8,9 @@
 		<Product>E-mail Duplicates Cleaner</Product>
 		<Company>Yxinity Group</Company>
 		<Authors>Larin Aleksandr</Authors>
-		<AssemblyVersion>2023.11.19.8</AssemblyVersion>
-		<FileVersion>2023.11.19.8</FileVersion>
-		<Version>2023.11.19.8</Version>
+		<AssemblyVersion>2023.11.26.8</AssemblyVersion>
+		<FileVersion>2023.11.26.8</FileVersion>
+		<Version>2023.11.26.8</Version>
 		<Copyright>Copyright © Yxinity Group, 2019-2023</Copyright>
 		<PackageTags>email</PackageTags>
 		<Trimming>full</Trimming>
@@ -20,7 +20,7 @@
 		<AssemblyName>EmailDup</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<DocumentationFile>A:\Projects\raps54.ru\exe\EmailDup\SourceCode\EmailDup.xml</DocumentationFile>
+		<DocumentationFile>EmailDup.xml</DocumentationFile>
 		<DebugType>full</DebugType>
 		<DebugSymbols>true</DebugSymbols>
 		<PlatformTarget>x64</PlatformTarget>
