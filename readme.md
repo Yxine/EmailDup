@@ -1,10 +1,12 @@
-# ![Icon](source/c#/EmailDup.png) E-mail Duplicator
+# E-mail Duplicator
 
 > Updated 2024-08-11
 
 ## About
 
 E-mail duplicator takes input file with data and produces output file which contains list of unique e-mails from first one.
+
+![Icon](originals/logo.png)
 
 ## Sample of usage
 

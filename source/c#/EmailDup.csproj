@@ -34,8 +34,7 @@
 		<DefineConstants />
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="clean.cmd" />
-	  <None Remove="EmailDup.ico" />
-	  <None Remove="EmailDup.png" />
+		<None Remove="clean.cmd" />
+		<None Remove="EmailDup.ico" />
 	</ItemGroup>
 </Project>
