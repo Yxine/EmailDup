@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailDup", "EmailDup.NET8.csproj", "{35586266-DF44-4EBB-90E4-FA5E59D944B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailDup", "EmailDup.csproj", "{35586266-DF44-4EBB-90E4-FA5E59D944B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

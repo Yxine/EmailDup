@@ -1,6 +1,6 @@
-# E-mail Duplicator
+# ![Icon](source/c#/EmailDup.png) E-mail Duplicator
 
-> Updated 2023-11-26
+> Updated 2024-08-11
 
 ## About
 
@@ -52,3 +52,9 @@ user30207@aol.com
 ![List Benchmark](originals/list.png)
 
 ![HashSet Benchmark](originals/hashset.png)
+
+## History
+
+### 2024.08.11
+
+- .NET 8.0 and Go release
