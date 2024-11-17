@@ -36,7 +36,7 @@ func main() {
 	colorGray := "\033[37m"
 	println()
 	println(colorGreen + "*")
-	println("* E-mail Duplicator version 2023-11-26")
+	println("* E-mail Duplicator version 2024-11-18")
 	println("* https://github.com/Yxine/EmailDup")
 	println("* Larin Aleksandr")
 	println("*" + colorWhite)

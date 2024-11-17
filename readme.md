@@ -1,6 +1,6 @@
 # E-mail Duplicator
 
-> Updated 2024-08-11
+> Updated 2024-11-18
 
 ## About
 
@@ -57,6 +57,10 @@ user30207@aol.com
 
 ## History
 
+### 2024.11.18
+
+- .NET 9.0 release
+
 ### 2024.08.11
 
-- .NET 8.0 and Go release
+- .NET 9.0 and Go release
